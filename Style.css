@@ -1,0 +1,62 @@
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0faff;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background: #0077b6;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      color: white;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      display: none;
+      padding: 20px;
+    }
+    .active {
+      display: block;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background: #0096c7;
+      color: white;
+    }
+    input, button {
+      padding: 6px;
+      margin: 4px;
+    }
+    h2 {
+      color: #0077b6;
+    }
+    #map {
+      height: 300px;
+      margin-top: 10px;
+    }
+    .print-button {
+      margin-top: 10px;
+    }
+    @media print {
+      nav, input, button {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
